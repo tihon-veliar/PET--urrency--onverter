@@ -7,26 +7,20 @@ interface FullScreenLayoutProps {
   }
 
 
-const FullScreenPage: React.FC<FullScreenLayoutProps> =({children})=>{
+const FullScreenPage: React.FC<FullScreenLayoutProps> =({})=>{
     return(
         <Section>
-            <Title> {children}</Title>
+            
         </Section>
     )
 }
 
 const Section=styled.div`
-width: 100%;
+width: 100vw;
 height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
 scroll-snap-align: center;
 `
-
-const Title = styled.h1`
-font-size:180px;
-color: #322F27`
-
-
 export default FullScreenPage
