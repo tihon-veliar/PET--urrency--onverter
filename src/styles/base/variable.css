@@ -1,0 +1,35 @@
+/* Colors of first page */
+:root {
+    --white-coral: #F3F2EA;
+    --black0color: #322F27;
+    --pink-color: #D74161;
+    --foretgreen-color: #AEABA3;
+    --white: #E2E1DD;
+    --grey: #78756C;
+  }
+  
+  /* Colors of second page */
+  :root {
+    --blue: #4FE8FF;
+    --green: #A5DE28;
+    --violet: #AD28DE;
+    --yellow: #DE7828;
+    --dark-violet: #774689;
+  }
+  
+  /* Colors for third page */
+  :root {
+    --red: #DE5728;
+    --turquoise: #4DFFD8;
+    --yellow-green: #DED728;
+    --purple: #604689;
+    --lollipop-purple: #6F28DE;
+  }
+  
+  /* Breakpoints */
+  :root {
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 992px;
+    --breakpoint-lg: 1200px;
+  }
+  
