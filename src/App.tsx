@@ -8,9 +8,9 @@ const App: React.FC=() =>{
 
   return (
     <Wrapper>
-      <FullScreenPage  title='Title of 1 Page'></FullScreenPage>
-      <FullScreenPage  title='Title of 2 Page'></FullScreenPage>
-      <FullScreenPage title='Title of 3 Page'></FullScreenPage>
+      <FullScreenPage children/>
+      <FullScreenPage children/>
+      <FullScreenPage children/>
     </Wrapper>
   )
 }

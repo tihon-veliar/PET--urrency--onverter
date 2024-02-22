@@ -1,23 +1,22 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import styled from 'styled-components';
 
 
 interface FullScreenLayoutProps {
-    title: string;
-   
+    children: ReactNode
   }
 
 
-const FullScreenPage: React.FC<FullScreenLayoutProps> =({title})=>{
+const FullScreenPage: React.FC<FullScreenLayoutProps> =({children})=>{
     return(
         <Section>
-            <Title> {title}</Title>
+            <Title> {children}</Title>
         </Section>
     )
 }
 
 const Section=styled.div`
-width: auto;
+width: 100%;
 height: 100vh;
 display: flex;
 justify-content: center;
