@@ -1,14 +1,20 @@
-import { useState } from 'react'
+import React from 'react'
+import styled from 'styled-components'
 
 
-function App() {
-  const [count, setCount] = useState(0)
+
+const App: React.FC=() =>{
+  
 
   return (
     <>
-      
     </>
   )
 }
 
-export default App
+const Wrapper = styled.div`
+height: 100vh;
+scroll-snap-type: y mandatory;
+overflow-y: scroll;`
+
+export default App;
