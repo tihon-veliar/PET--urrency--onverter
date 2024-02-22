@@ -7,10 +7,10 @@ interface FullScreenLayoutProps {
   }
 
 
-const FullScreenPage: React.FC<FullScreenLayoutProps> =({})=>{
+const FullScreenPage: React.FC<FullScreenLayoutProps> =({children})=>{
     return(
         <Section>
-            
+            {children}
         </Section>
     )
 }
