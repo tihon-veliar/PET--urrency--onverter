@@ -1,14 +1,23 @@
-import { useState } from 'react'
+import React from 'react'
+import styled from 'styled-components'
+import FullScreenPage from '../src/components/FullScreenPage'
 
 
-function App() {
-  const [count, setCount] = useState(0)
+const App: React.FC=() =>{
+  
 
   return (
-    <>
-      
-    </>
+    <Wrapper>
+      <FullScreenPage  title='Title of 1 Page'></FullScreenPage>
+      <FullScreenPage  title='Title of 2 Page'></FullScreenPage>
+      <FullScreenPage title='Title of 3 Page'></FullScreenPage>
+    </Wrapper>
   )
 }
 
-export default App
+const Wrapper = styled.div`
+height: 100vh;
+scroll-snap-type: y mandatory;
+overflow-y: scroll;`
+
+export default App;
